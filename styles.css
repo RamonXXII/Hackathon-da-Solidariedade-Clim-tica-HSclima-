@@ -34,3 +34,14 @@ h6 {
   font-family: "Concert One", sans-serif;
   color: #00ab4e;
 }
+
+.botao {
+  width: fit-content;
+  padding: 10px 90px;
+  background-color: #00ab4e;
+  font-size: 1.5em;
+}
+
+#infos-importantes {
+  background-color: #eee;
+}

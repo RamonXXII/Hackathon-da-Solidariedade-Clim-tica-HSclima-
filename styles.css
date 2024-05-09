@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 #banner {
@@ -25,23 +25,53 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  padding: 100px;
+  padding: 50px;
   text-align: center;
 }
 
+#banner img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
 #banner h1 {
-  font-size: 5.5em;
-  font-family: "Concert One", sans-serif;
-  color: #00ab4e;
+  font-size: 3em;
+  font-family: sans-serif;
+  color: white;
 }
 
 .botao {
   width: fit-content;
   padding: 10px 90px;
-  background-color: #00ab4e;
+  background-color: #57005a;
   font-size: 1.5em;
+  color: white;
+  border: #57005a 1px solid;
+}
+
+.botao:hover {
+  background-color: white;
+  color: #57005a;
+  border: #57005a 1px solid;
 }
 
 #infos-importantes {
   background-color: #eee;
+}
+
+.divisa {
+  border: 2px solid #57005a;
+  margin: 0 0;
+  opacity: 1;
+  width: 6%;
+  min-width: 100px;
+  margin: auto;
+}
+
+footer.container img {
+  width: 100px;
+}
+
+footer.container {
+  padding: 0px 300px;
 }

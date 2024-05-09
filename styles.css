@@ -56,7 +56,9 @@ h6 {
 }
 
 #infos-importantes {
-  background-color: #eee;
+  background-color: #11ccf5;
+  color: white;
+  box-shadow: -14px 18px 20px 0px #e0e0e0;
 }
 
 .divisa {

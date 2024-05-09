@@ -1,15 +1,36 @@
-header{
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
-#page-title{
-    font-size: 1.5em;
-    margin-top: 10px;
+#page-title {
+  font-size: 1.5em;
+  margin-top: 10px;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Poppins', sans-serif
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+#banner {
+  background-image: url("./img/banner.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 5.5em;
+  font-family: "Concert One", sans-serif;
+  color: #00ab4e;
 }

@@ -15,9 +15,9 @@
 	<title>HSclima</title>
 
 <body>
-	<section>
-		<div class="row" id="banner">
-			<div class="col-12 text-center text-light">
+	<section id="banner">
+		<div class="row">
+			<div class="col-12 text-center text-light animate__animated animate__fadeIn">
 				<img src="./img/logo.png"></img>
 				<h1>Hackathon da Solidariedade Climática</h1>
 			</div>
@@ -27,8 +27,9 @@
 	<main class="container py-4">
 		<div class="row align-items-start">
 			<div class="col-md-6 col-sm-12">
-				<div class="py-5" style="padding-right: 40px;">
+				<div class="py-5 animate__animated animate__fadeInLeft" style="padding-right: 40px;">
 					<h2>Apresentação</h2>
+					<hr class="divisa-left">
 					<p>
 						Durante as enchentes ocasionadas pelas chuvas, que assolaram o Rio Grande do Sul no início
 						de
@@ -43,27 +44,29 @@
 						acontecimento.
 					</p>
 					<h2>Sobre o desafio</h2>
+					<hr class="divisa-left">
 					<p>
 						Dado o tema do nosso hackathon que são as mudanças climáticas, o desafio é simples, criar
 						aplicações, sejam elas web (de fácil uso), esse software deve conter ideias inovadoras
 						pensando
-						em cenários de catástrofes ambientais. Alguns exemplos de softwares, poderiam ser para
-						encontrar
-						pessoas com mais facilidade em áreas remotas, mandando a localização em coordenadas para
-						órgãos
-						competentes, monitoramento de questões climáticas e avisos. Esses foram só exemplos, as
-						ideias
-						podem ser construídas em cima disso, melhoradas, ou até ideias diferentes dessas, mas que
-						mantenham em mente a ajuda a sociedade dadas as questões climáticas.
-						A aplicação desenvolvida durante o desafio será hospedada de modo a ser de fácil acesso e
-						uso
-						pela sociedade/governo de modo a ser usada em desastres futuros.
+						em cenários de catástrofes ambientais. Alguns exemplos de softwares poderiam ser: encontrar
+						pessoas com mais facilidade em áreas remotas, mandando a
+						localização em coordenadas para órgãos competentes; monitoramento de questões climáticas e
+						avisos; etc. O
+						objetivo é produzir alguma forma de auxílio à sociedade em situações críticas dadas
+						as questões climáticas.
+						A aplicação desenvolvida durante o desafio será hospedada de modo a ser de fácil acesso e uso
+						pela sociedade/governo,
+						para que possa ser usada em desastres futuros.
 					</p>
+					<h2>Perguntas Frequentes</h2>
+					<hr class="divisa-left">
+					<p>Ficou com dúvida? Clique <a href="#">aqui</a> e acesse nosso FAQ.</p>
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-12 d-flex align-items-center">
-				<div id="infos-importantes" class="rounded p-5 mt-5">
+			<div class="col-md-6 col-sm-12">
+				<div id="infos-importantes" class="rounded p-5 mt-5 animate__animated animate__fadeIn">
 					<h2>Informações importantes</h2>
 					<p>
 						<b>Datas:</b>
@@ -94,10 +97,11 @@
 							As equipes devem ser compostas por 3 a 5 competidores.
 						</li>
 						<li>
-							<b>Custo: Será de R$ 50,00 por equipe.</b>
+							<b>Custo: doação de R$ 50,00 (por equipe) para o PIX <span
+									style="font-size: 1.3em;">sbc@sbc.org.br</span></b>
 						</li>
 					</ul>
-					<p><b>Premiações</b></p>
+					<!-- <p><b>Premiações</b></p>
 					<ul>
 						<li>
 							1º lugar: a definir
@@ -108,128 +112,138 @@
 						<li>
 							3º lugar: a definir
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 
-			<div class="col-12 pt-5">
-				<button class="btn m-auto d-block px-5 botao2" data-bs-toggle="collapse" data-bs-target="#categorias">
-					Categorias <svg xmlns="http://www.w3.org/2000/svg" width="20" height="auto" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
-						<path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
-					  </svg>
-				</button>
-
-				<div class="collapse" id="categorias">
-					<p class="text-center mt-4">(não limitado às seguintes)</p>
-					<ul>
-						<li>
-							<p>
-								<b>Monitoramento Ambiental</b>: Criar ferramentas para monitorar a qualidade do ar, a saúde dos ecossistemas locais e o nível de poluição em áreas específicas;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Alerta Antecipado / Resposta Rápida</b>: Desenvolver aplicativos que forneçam alertas precoces sobre eventos climáticos extremos, como tempestades, enchentes, secas e deslizamentos de terra, permitindo que as comunidades se preparem e ajam rapidamente;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Mapeamento de Riscos</b>: Criar ferramentas de mapeamento que identifiquem áreas de alto risco de desastres naturais e forneçam informações sobre rotas de evacuação, abrigos seguros e recursos de emergência;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Comunicação em Situações de Emergência</b>: Criar plataformas de comunicação robustas que garantam a conectividade em áreas afetadas por desastres, permitindo que as pessoas solicitem ajuda, compartilhem informações vitais e se comuniquem com suas redes de apoio;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Gestão de Abrigos</b> Desenvolver sistemas de gestão de abrigos temporários que ajudem a coordenar o acolhimento de deslocados, fornecendo informações sobre capacidade, localização, recursos disponíveis e necessidades específicas dos afetados;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Avaliação de Danos</b> Criar ferramentas para avaliação rápida e precisa dos danos causados pelos desastres, utilizando tecnologias como imagens de satélite, drones e inteligência artificial para orientar os esforços de resposta e reconstrução;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Apoio Psicossocial</b> Desenvolver aplicativos que ofereçam suporte psicológico e recursos de saúde mental para indivíduos e comunidades afetadas por desastres, promovendo o bem-estar emocional e a resiliência;
-							</p>
-						</li>
-						<li>	
-							<p>
-								<b>Distribuição de Recursos</b> Criar sistemas de gestão de estoques e logística para otimizar a distribuição de alimentos, água, medicamentos e outros suprimentos essenciais em áreas atingidas por desastres;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Recuperação de Áreas Afetadas / Recuperação Sustentável</b>: esenvolver soluções para apoiar a reconstrução de comunidades de forma sustentável, promovendo a resiliência a futuros desastres e a recuperação econômica e social a longo prazo;
-							</p>
-						</li>
-						<li>
-							<p>
-								<b>Comunicação e Engajamento Comunitário</b> Desenvolver plataformas de comunicação que facilitem a colaboração entre comunidades locais, organizações não governamentais e governos para enfrentar os desafios das mudanças climáticas de forma conjunta; 
-							</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-12 mt-5">
-				<a class="btn m-auto d-block px-5 botao" href="https://jems3.sbc.org.br/hsclima">Submeta sua
+			<div class="col-12 mb-5">
+				<a class="btn m-auto d-block px-5 botao animate__animated animate__fadeInUpBig"
+					href="https://jems3.sbc.org.br/hsclima">Submeta sua
 					proposta</a>
 			</div>
 		</div>
 	</main>
 
+	<section id="categorias">
+		<div class="container row">
+			<div class="col-12 mb-4 text-center animate__animated animate__fadeInLeftBig">
+				<h1>Categorias</h1>
+				<hr class="divisa-branca">
+			</div>
+			<div class="col-12 col-md-6 pe-5 animate__animated animate__fadeInLeftBig">
+				<ul>
+					<li>
+						<p>
+							<b>Monitoramento Ambiental</b>: Criar ferramentas para monitorar a qualidade do ar, a
+							saúde dos ecossistemas locais e o nível de poluição em áreas específicas;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Alerta Antecipado / Resposta Rápida</b>: Desenvolver aplicativos que forneçam alertas
+							precoces sobre eventos climáticos extremos, como tempestades, enchentes, secas e
+							deslizamentos de terra, permitindo que as comunidades se preparem e ajam rapidamente;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Mapeamento de Riscos</b>: Criar ferramentas de mapeamento que identifiquem áreas de
+							alto risco de desastres naturais e forneçam informações sobre rotas de evacuação,
+							abrigos seguros e recursos de emergência;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Comunicação em Situações de Emergência</b>: Criar plataformas de comunicação robustas
+							que garantam a conectividade em áreas afetadas por desastres, permitindo que as pessoas
+							solicitem ajuda, compartilhem informações vitais e se comuniquem com suas redes de
+							apoio;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Gestão de Abrigos</b>: Desenvolver sistemas de gestão de abrigos temporários que
+							ajudem a coordenar o acolhimento de deslocados, fornecendo informações sobre capacidade,
+							localização, recursos disponíveis e necessidades específicas dos afetados;
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-12 col-md-6 ps-5 animate__animated animate__fadeIn">
+				<ul>
+					<li>
+						<p>
+							<b>Avaliação de Danos</b>: Criar ferramentas para avaliação rápida e precisa dos danos
+							causados pelos desastres, utilizando tecnologias como imagens de satélite, drones e
+							inteligência artificial para orientar os esforços de resposta e reconstrução;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Apoio Psicossocial</b>: Desenvolver aplicativos que ofereçam suporte psicológico e
+							recursos de saúde mental para indivíduos e comunidades afetadas por desastres,
+							promovendo o bem-estar emocional e a resiliência;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Distribuição de Recursos</b>: Criar sistemas de gestão de estoques e logística para
+							otimizar a distribuição de alimentos, água, medicamentos e outros suprimentos essenciais
+							em áreas atingidas por desastres;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Recuperação de Áreas Afetadas / Recuperação Sustentável</b>: esenvolver soluções para
+							apoiar a reconstrução de comunidades de forma sustentável, promovendo a resiliência a
+							futuros desastres e a recuperação econômica e social a longo prazo;
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Comunicação e Engajamento Comunitário</b>: Desenvolver plataformas de comunicação que
+							facilitem a colaboração entre comunidades locais, organizações não governamentais e
+							governos para enfrentar os desafios das mudanças climáticas de forma conjunta;
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
 	<footer class="container mt-5">
 		<div class="row">
-			<div class="col-12 text-center">
+			<div class="col-12 col-md-6 text-center">
 				<h2>Organização</h2>
 				<hr class="divisa">
-			</div>
-			<div class="col-12 my-5 text-center">
 				<div class="row">
 					<div class="col-6 col-md-4">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
+						<img src="./img/logo-pet-cc.png">
 					</div>
 					<div class="col-6 col-md-4">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
+						<img src="./img/logo-ufsm.png">
 					</div>
 					<div class="col-6 col-md-4">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
+						<img src="./img/logo-ct.png">
 					</div>
 				</div>
 			</div>
-			<div class="col-12 text-center">
+			<div class="col-12 col-md-6 text-center">
 				<h2>Parceiros</h2>
 				<hr class="divisa">
-			</div>
-			<div class="col-12 my-5 text-center">
 				<div class="row">
-					<div class="col-6 col-md-12">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
+					<div class="col-12 col-md-12">
+						<img src="./img/logo-sbc.png">
 					</div>
 				</div>
 			</div>
-			<div class="col-12 text-center">
+			<div class="col-12 my-4 text-center">
 				<h2>Apoiadores</h2>
 				<hr class="divisa">
-			</div>
-			<div class="col-12 my-5 text-center">
 				<div class="row">
-					<div class="col-6 col-md-3">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
-					</div>
-					<div class="col-6 col-md-3">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
-					</div>
-					<div class="col-6 col-md-3">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
-					</div>
-					<div class="col-6 col-md-3">
-						<img src="https://www.ufsm.br/app/uploads/sites/464/2019/06/Brasao_UFSM_Color_300dpi.jpg">
+					<div class="col-12 col-md-12">
+						Seja nosso parceiro, entre em contato pelo email <a
+							href="mailto:hsclima@inf.ufsm.br">hsclima@inf.ufsm.br</a>
 					</div>
 				</div>
 			</div>
@@ -239,6 +253,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </body>
 
 </html>

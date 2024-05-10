@@ -1,23 +1,16 @@
-header {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-#page-title {
-  font-size: 1.5em;
-  margin-top: 10px;
+html {
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body {
   font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
+/* Banner */
 #banner {
   background-image: url("./img/banner.png");
   background-attachment: fixed;
@@ -27,6 +20,7 @@ h6 {
   color: #fff;
   padding: 50px;
   text-align: center;
+  width: 100%;
 }
 
 #banner img {
@@ -40,6 +34,7 @@ h6 {
   color: white;
 }
 
+/* Botões */
 .botao {
   width: fit-content;
   padding: 10px 90px;
@@ -71,24 +66,46 @@ h6 {
 }
 
 #infos-importantes {
-  background-color: #9f42f1;
+  background-color: #57005a;
   color: white;
-  box-shadow: -14px 18px 20px 0px #e0e0e0;
+  box-shadow: -7px 8px 0px 0px #8b8b8b;
+}
+
+#categorias {
+  background-color: #57005a;
+  color: white;
+  padding: 40px 60px;
+  text-align: justify;
+}
+
+#categorias b {
+  font-size: 1.1em;
 }
 
 .divisa {
   border: 2px solid #57005a;
-  margin: 0 0;
   opacity: 1;
   width: 6%;
   min-width: 100px;
-  margin: auto;
+  margin: 1rem auto;
 }
 
-footer.container img {
-  width: 100px;
+.divisa-left {
+  border: 2px solid #57005a;
+  opacity: 1;
+  width: 6%;
+  min-width: 100px;
+  margin: 1rem 0px;
 }
 
-footer.container {
-  padding: 0px 300px;
+.divisa-branca {
+  border: 2px solid white;
+  opacity: 1;
+  width: 6%;
+  min-width: 100px;
+  margin: 1rem auto;
+}
+
+footer img {
+  width: 150px;
 }

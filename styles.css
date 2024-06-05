@@ -110,3 +110,31 @@ footer img {
   width: 150px;
   aspect-ratio: 1/1;
 }
+
+.card {
+  background-color: #57005a;
+  color: white;
+  padding: 30px 30px;
+  margin: 20px 0px;
+}
+
+.card h6 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.card.conteudo {
+  background-color: white;
+  color: black;
+  padding: 30px 30px;
+}
+
+/* Classe de animação */
+.fade-in-out {
+  transition: opacity 2s ease-in-out; /* Propriedades de transição */
+  opacity: 0; /* Começa com opacidade 0 */
+  display: none;
+}
+.fade-in-out.show {
+  opacity: 1; /* Quando a classe 'show' é adicionada, a opacidade se torna 1 */
+}
